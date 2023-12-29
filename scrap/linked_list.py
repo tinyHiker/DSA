@@ -142,10 +142,6 @@ class LinkedList:
             value = cur_node.value
 
         return value 
-    
-    def delete_all(self):
-        self.head = None 
-        self.tail = None
 
 
 
