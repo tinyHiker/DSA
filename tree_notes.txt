@@ -26,3 +26,18 @@ A balanced binary tree: a binary tree where all leaf nodes are the same distance
 
 
 The deepest node a binary tree is the last node we reach after doing level order traversal 
+
+
+There are multiple ttype of tree search. 
+1. Depth First Search
+1.a. Preorder traversal
+1.b. Inorder Traversal 
+1.c. Postorder Traversal 
+2. Breadth First Search
+2.a. Level Order Traversal 
+
+In Preorder Traversal, we visit root node, then the left subtree, then the right subtree
+Inorder traversal, we visit left subtree, then root node, then right subtree
+Postorder traversal, we visit left subtree, right subtree, then root node
+
+In level order traversal, we visit each level from left to right
